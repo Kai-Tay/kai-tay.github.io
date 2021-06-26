@@ -261,19 +261,10 @@ footnote{
 
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1201px) {
     main{
         padding-inline: 150px;
         font-size: 15px;
-    }
-    .aboutme_img{
-        height: 200px;
-        width: 200px;
-    }
-
-    .row{
-        padding-left: 0px;
-        padding-right: 0px;
     }
 }
 @media screen and (max-width: 991px) {
