@@ -75,13 +75,13 @@ nav{
 
 .header{
     color: white;
-    font-size: 8vh;
+    font-size: 6vh;
     position: relative;
     margin-top: 30vh;
 }
 
 .bio{
-    font-size: 3vh;    
+    font-size: 2.5vh;    
     color:white;
     padding-top: 3vh;
 }
@@ -90,7 +90,7 @@ nav{
     border: 2px solid white;
     color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 13px;
     border-radius: 0px;
     transition: all 250ms;
 }
@@ -107,7 +107,7 @@ main{
     display: inline-block;
     width: 100%;
     padding-bottom: 20px;
-    padding-inline: 300px;
+    padding-inline: 250px;
     text-align: center;
 }
 
@@ -124,20 +124,20 @@ footer{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
-    width: 250px;
+    height: 210px;
+    width:210px;
 }
 
 .blackheading{
     color: rgb(24, 24, 24);
-    font-size: 40px;
+    font-size: 30px;
     padding-top: 60px;
     padding-bottom: 50px;
     font-weight:600;
 }
 
 .aboutme_details{
-    font-size: 22px;
+    font-size: 18px;
 }
 
 hr{
@@ -260,14 +260,20 @@ footnote{
     }
 
 }
-@media screen and (max-width: 1450px) {
+
+@media screen and (max-width: 1200px) {
     main{
         padding-inline: 150px;
         font-size: 15px;
     }
     .aboutme_img{
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .row{
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 @media screen and (max-width: 991px) {
@@ -276,8 +282,8 @@ footnote{
         font-size: 15px;
     }
     .aboutme_img{
-        height: 200px;
-        width: 200px;
+        height: 190px;
+        width: 190px;
     }
     .textboxlarge{
         width: 12cm;
