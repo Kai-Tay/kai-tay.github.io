@@ -178,6 +178,7 @@ footer{
 .EducationBody{
     padding-bottom: 10px;
     font-size: 18px;
+    text-align: center;
 }
 
 .blackheading{
@@ -203,12 +204,57 @@ hr{
     margin-top: 50px;
 }
 
-
-
-.skills_image{
-    height:13vh;
-    padding-top: 30px;
+.python{
+    background: url("images/python.png") no-repeat;
+    background-position: 50%;
+    background-position-y: 90%;
+    background-size: 12vh;
+    height: 15vh;
 }
+
+.python:hover{
+    background: url("images/pythonhover.png") no-repeat;
+    background-position: 50%;
+    background-position-y: 90%;
+    background-size: 12vh;
+    height: 15vh;
+    transition: all 200ms;
+}
+
+.html{
+    background: url("images/html.png") no-repeat;
+    background-position: 50%;
+    background-position-y: 90%;
+    background-size: 12vh;
+    height: 15vh;
+}
+
+.html:hover{
+    background: url("images/htmlhover.png") no-repeat;
+    background-position: 50%;
+    background-position-y: 90%;
+    background-size: 12vh;
+    height: 15vh;
+    transition: all 200ms;
+}
+
+.css{
+    background: url("images/css.png") no-repeat;
+    background-position: 50%;
+    background-position-y: 90%;
+    background-size: 12vh;
+    height: 15vh;
+}
+
+.css:hover{
+    background: url("images/csshover.png") no-repeat;
+    background-position: 50%;
+    background-position-y: 90%;
+    background-size: 12vh;
+    height: 15vh;
+    transition: all 200ms;
+}
+
 
 .skills_imagetag{
     font-size: 20px;
