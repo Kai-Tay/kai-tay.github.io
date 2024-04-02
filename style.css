@@ -114,6 +114,30 @@ nav{
     background-color: black;
 }
 
+.GithubTextBlack{
+    font-size: 100%;
+    color: white;
+    text-decoration: none;
+    transition: all 200ms;
+    padding: 10px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    outline-style: none;
+}
+
+
+.GithubTextBlack:hover{
+    font-size: 100%;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 250ms;
+    background-color: white;
+    outline-style: solid;
+}
+
 .GithubIcon{
  padding-right: 4px;
 }
@@ -187,6 +211,13 @@ footer{
     padding-top: 60px;
     padding-bottom: 50px;
     font-weight:600;
+}
+
+.blacksubheading{
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+    font-weight:600;
+    padding-top: 20px;
 }
 
 .Bio{
